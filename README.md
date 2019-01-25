@@ -1,3 +1,3 @@
-#parcel-react
+# parcel-react
 
-##A REACT template using the Parcel Package Manager
+## A REACT template using the Parcel Package Manager
