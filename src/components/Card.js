@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  Alert,
   ListGroup,
   ListGroupItem,
   Button,
@@ -54,7 +55,9 @@ class Card extends Component {
           {item.title}
         </Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>{item.title}</ModalHeader>
+          <ModalHeader toggle={this.toggle}>
+            <Alert color="success">{item.title}</Alert>
+          </ModalHeader>
           <ModalBody>
             <ListGroup>{listItems}</ListGroup>
           </ModalBody>

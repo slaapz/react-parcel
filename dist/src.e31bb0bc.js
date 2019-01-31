@@ -38994,7 +38994,9 @@ function (_Component) {
         toggle: this.toggle
       }, _react.default.createElement(_reactstrap.ModalHeader, {
         toggle: this.toggle
-      }, item.title), _react.default.createElement(_reactstrap.ModalBody, null, _react.default.createElement(_reactstrap.ListGroup, null, listItems)), _react.default.createElement(_reactstrap.ModalFooter, null, buttons)));
+      }, _react.default.createElement(_reactstrap.Alert, {
+        color: "success"
+      }, item.title)), _react.default.createElement(_reactstrap.ModalBody, null, _react.default.createElement(_reactstrap.ListGroup, null, listItems)), _react.default.createElement(_reactstrap.ModalFooter, null, buttons)));
     }
   }]);
 
@@ -39909,7 +39911,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60829" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59925" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
