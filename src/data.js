@@ -93,7 +93,11 @@ export const macros = [
       'Adjust the email verbiage or receipients as needed.'
     ],
     links: [
-      'http://sharepoint_na.ms.com/gwm/mssbcru/Alerts/Wiki%20Pages/Custodial.aspx'
+      {
+        name: 'Custodial',
+        url:
+          'http://sharepoint_na.ms.com/gwm/mssbcru/Alerts/Wiki%20Pages/Custodial.aspx'
+      }
     ],
     bootstrap: {
       accord_id: 'alertAccordian',
@@ -585,7 +589,7 @@ export const macros = [
       'Clip the expanded Focus Issues from Actimize and paste it into the email.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'SRV',
         url:
@@ -611,7 +615,7 @@ export const macros = [
       'Clip the expanded Focus Issues from Actimize and paste it into the email.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'UTA',
         url:
@@ -638,7 +642,7 @@ export const macros = [
       'Choose the email subject from the drop_down list.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'ESV',
         url:
@@ -666,7 +670,7 @@ export const macros = [
       'Choose the email subject from the drop_down list.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'BOT',
         url:
@@ -692,7 +696,7 @@ export const macros = [
       'Click the Send Email button in the exported spreadsheet.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'Short_Sale Exempt',
         url:
@@ -719,7 +723,7 @@ export const macros = [
       'Click the Send Email button in the exported spreadsheet.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'Canadian Sec. Review',
         url:
@@ -747,7 +751,7 @@ export const macros = [
       'Adjust the email verbiage or receipients as needed.',
       'Repeat steps for the PRIIPS FX spreadsheet, if applicable.'
     ],
-    llinks: [
+    links: [
       {
         name: 'PRIIPS',
         url:
@@ -772,7 +776,7 @@ export const macros = [
       'Copy/paste the trades from the spreadsheet for the FA in question to the email.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'CGA',
         url:
@@ -800,7 +804,7 @@ export const macros = [
       'Choose the email subject from the drop_down menu displayed.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'MFCS',
         url:
@@ -826,7 +830,7 @@ export const macros = [
       'Choose the email subject from the drop_down menu displayed.',
       'Adjust the email verbiage or receipients as needed.'
     ],
-    llinks: [
+    links: [
       {
         name: 'Level C',
         url:
@@ -1079,7 +1083,12 @@ export const macros = [
       'Select a cell in the Account Number column in either the Escalation or Alerts tab in the complex tracking sheet.',
       'Run the macro by pressing the keyboard shortcut.'
     ],
-    links: [],
+    links: [
+      {
+        name: '',
+        url: ''
+      }
+    ],
     bootstrap: {
       accord_id: 'utilAccordian',
       header_id: 'headingGO23D',
@@ -1097,7 +1106,12 @@ export const macros = [
       'Run the macro by pressing the keyboard shortcut.',
       'Adjust the email verbiage or recipeints as needed.'
     ],
-    links: [],
+    links: [
+      {
+        name: '',
+        url: ''
+      }
+    ],
     bootstrap: {
       accord_id: 'utilAccordian',
       header_id: 'headingFOLLOW',
@@ -1114,7 +1128,12 @@ export const macros = [
       'Export the complex trade blotter from Actimize.',
       'With the export in focus, run the macro by pressing the keyboard shortcut.'
     ],
-    links: [],
+    links: [
+      {
+        name: '',
+        url: ''
+      }
+    ],
     bootstrap: {
       accord_id: 'utilAccordian',
       header_id: 'headingBUNCH',
@@ -1123,7 +1142,7 @@ export const macros = [
     }
   },
   {
-    id: 44,
+    id: 45,
     title: 'Unsolictied',
     type: 'utility',
     hotKey: 'CTRL_SHIFT_P',
@@ -1131,7 +1150,12 @@ export const macros = [
       'Export the complex trade blotter from Actimize.',
       'With the export in focus, run the macro by pressing the keyboard shortcut.'
     ],
-    links: [],
+    links: [
+      {
+        name: '',
+        url: ''
+      }
+    ],
     bootstrap: {
       accord_id: 'utilAccordian',
       header_id: 'headingUNSOL',
@@ -1140,7 +1164,7 @@ export const macros = [
     }
   },
   {
-    id: 45,
+    id: 46,
     title: 'Bunching Assistant',
     type: 'utility',
     hotKey: 'CTRL_SHIFT_G',
@@ -1150,7 +1174,12 @@ export const macros = [
       'Click the Enable Editing button in Excel.',
       'With the export in focus, run the macro by pressing the keyboard shortcut.'
     ],
-    links: [],
+    links: [
+      {
+        name: '',
+        url: ''
+      }
+    ],
     bootstrap: {
       accord_id: 'utilAccordian',
       header_id: 'headingBA',
