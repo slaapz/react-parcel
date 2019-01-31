@@ -1,30 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Header from './components/Header';
-import Cards from './components/Cards';
+import './App.css';
 
-import { macros } from './data';
-
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      macros: []
-    };
-  }
-
-  componentWillMount() {
-    this.setState({ macros: macros });
-  }
-  render() {
-    const { macros } = this.state;
-    return (
-      <div>
-        <Header />
-        <Cards macros={macros} />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <h1>REACT Boilerplate with Parcel package manager</h1>
+    </div>
+  );
+};
 
 export default App;
